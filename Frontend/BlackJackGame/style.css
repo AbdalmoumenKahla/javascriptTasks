@@ -1,0 +1,35 @@
+body {
+    font-size: xx-large;
+    background-color: #0e440e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+button {
+    background-color: goldenrod;
+    color: #0e440e;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 200px;
+    height: 60px;
+}
+
+button:hover {
+    background-color: rgb(168, 125, 15);
+
+}

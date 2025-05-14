@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="nums">
+            <input type="text" id="num1" placeholder="Enter first number">
+            <input type="text" id="num2" placeholder="Enter second number">
+        </div>
+        <div id="buttons">
+            <button id="add" onclick="add()">Add</button>
+            <button id="subtract" onclick="subtract()">Subtract</button>
+            <button id="multiply" onclick="multiply()">Multiply</button>
+            <button id="divide" onclick="divide()">Divide</button>
+        </div>
+        <button id="clear" onclick="clearFields()" style="color: red;">Clear</button>
+        <div id="result">
+            <h1 id="res"></h1>
+        </div>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>

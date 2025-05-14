@@ -1,0 +1,66 @@
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    font-size: larger;
+}
+
+#increment-btn {
+    background-color: red;
+}
+
+#increment-btn:hover {
+    background-color: darkred;
+}
+
+#save-btn {
+    background-color: green;
+}
+
+#save-btn:hover {
+    background-color: darkgreen;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    /* Remove align-items and align-content from here */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background-image: initial
+}
+
+#result {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: xx-large
+}

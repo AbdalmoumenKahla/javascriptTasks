@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(231, 175, 135);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    background-color: rgb(78, 255, 137);
+}
+
+#nums {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    width: fit-content;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    flex-direction: row;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(100, 172, 214);
+}
+
+button:hover {
+    background-color: #0000ff;
+}
+
+#result {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(13, 16, 233);
+    font-weight: bold;
+    font-size: larger;
+}
+
+#nums {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#num1,
+#num2 {
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#num1:focus,
+#num2:focus {
+    outline: none;
+    border: 2px solid rgb(0, 0, 255);
+}
